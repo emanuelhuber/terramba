@@ -1,0 +1,19 @@
+---
+title: "Interpolation with interp2DMBA"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Interpolation with interp2DMBA}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(terramba)
+```

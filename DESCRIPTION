@@ -1,0 +1,24 @@
+Package: terramba
+Type: Package
+Title: Two-Dimensional Spatial Interpolation with Multilevel B-Splines
+Version: 0.1.1
+Date: 2026-10-10
+Authors@R: person("Emanuel", "Huber", role = c("aut", "cre"), email = "emanuel.huber@pm.me")
+Description: Provides a compact interface for interpolating two-dimensional
+    spatial point data using multilevel B-spline approximation and returning
+    the result as a 'terra' raster or matrix.
+License: GPL (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    MBA,
+    sf,
+    stats,
+    terra
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
+VignetteBuilder: knitr
